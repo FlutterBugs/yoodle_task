@@ -33,7 +33,7 @@ class _BodyState extends State<Body> {
 
     final material = ARKitMaterial(
       lightingModelName: ARKitLightingModel.lambert,
-      diffuse: ARKitMaterialProperty.image('assets/images/image.jpeg'),
+      diffuse: ARKitMaterialProperty.image('assets/images/logo.jpg'),
     );
     final sphere = ARKitSphere(
       materials: [material],
